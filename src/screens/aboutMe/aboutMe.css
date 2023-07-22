@@ -1,0 +1,34 @@
+.about__container{
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about__container img{
+    border-radius: 50%;
+    border: 0.5px solid rgb(218,218,218);
+    margin-bottom: 1 rem;
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: scale-down;
+}
+
+about__text{
+    max-width: 600px;
+}
+
+/*--------------- MEDIA QUERIES ---------------*/
+
+@media only screen and (max-width: 900px){
+    .about__container{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .about__text{
+        max-width: 300px;
+    }
+}
