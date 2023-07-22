@@ -3851,6 +3851,11 @@ detect-port-alt@^1.1.6:
     address "^1.0.1"
     debug "^2.6.0"
 
+devicon-react-svg@^0.2.4:
+  version "0.2.4"
+  resolved "https://registry.npmjs.org/devicon-react-svg/-/devicon-react-svg-0.2.4.tgz"
+  integrity sha512-zLkJdEOwaNqRIPSFF19j/82jjwn6pTz57tWRsCuHFLf3t3FR6NsRY+dZ2cqgpVRJrib1U8aN8DywZYbXBVds+Q==
+
 didyoumean@^1.2.2:
   version "1.2.2"
   resolved "https://registry.npmjs.org/didyoumean/-/didyoumean-1.2.2.tgz"
