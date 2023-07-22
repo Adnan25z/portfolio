@@ -12,10 +12,10 @@
     margin-bottom: 1 rem;
     max-width: 150px;
     max-height: 150px;
-    object-fit: scale-down;
+    object-fit: cover;
 }
 
-about__text{
+.about__text{
     max-width: 600px;
 }
 
@@ -30,5 +30,9 @@ about__text{
 @media only screen and (max-width: 700px){
     .about__text{
         max-width: 300px;
+    }
+    .about__text h1{
+        margin-top: 1rem;
+        margin-left: 4rem;
     }
 }

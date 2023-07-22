@@ -8,11 +8,13 @@ import Technologies from './screens/technologies/Technologies';
 function App() {
   return (
     <div className="App">
-     <Navigation />
-     <Header />
-     <Particles />
-     <AboutMe />
-     <Technologies />
+      <Navigation />
+      <div className="slant-container">
+        <Header />
+        <Particles />
+      </div>
+      <AboutMe />
+      <Technologies />
     </div>
   );
 }

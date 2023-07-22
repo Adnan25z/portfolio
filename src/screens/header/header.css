@@ -1,6 +1,7 @@
-.main-info{
+/* header.css */
+.main-info {
     display: flex;
-    position: absolute;
+    position: absolute; /* Change this to relative to position the slant-header properly */
     color: var(--font-color);
     top: 0;
     left: 0;
@@ -10,4 +11,11 @@
     justify-content: center;
     align-items: center;
     z-index: 1;
-}
+  }
+  
+  /* Add the slant to the bottom of the header content */
+  .slant-header {
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+  }
+  
