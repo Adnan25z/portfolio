@@ -11,7 +11,7 @@ export default class Particles extends React.Component {
     canvas.width = document.documentElement.clientWidth;
     canvas.height = document.documentElement.clientHeight;
 
-    let num = 100;
+    let num = 200;
     let size = 1;
     let color = "#fff";
     let min_speed = 0.1;

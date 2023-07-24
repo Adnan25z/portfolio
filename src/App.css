@@ -18,11 +18,12 @@
   height: 100vh;
 }
 
-/* Add styles for the slanted container */
-.slant-container {
-  position: relative;
-  background-color: var(--nav-color);
-  margin-bottom: 2rem; /* To add some spacing between header and the next section */
-  z-index: 0; /* Set a lower z-index to place it below other sections */
-  clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%); /* Define the clip-path polygon */
+@media (min-width: 768px) {
+  .slant-container {
+    position: relative;
+    background-color: var(--nav-color);
+    margin-bottom: 2rem; /* To add some spacing between header and the next section */
+    z-index: 0; /* Set a lower z-index to place it below other sections */
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%); /* Define the clip-path polygon */
+  }
 }
