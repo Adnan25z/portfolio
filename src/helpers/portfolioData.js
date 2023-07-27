@@ -2,11 +2,61 @@ import game from "../images/projectsicon/AIG.gif";
 import cruise from "../images/projectsicon/cruise.gif";
 import connect4 from "../images/projectsicon/connect4.gif";
 import chess from "../images/projectsicon/maya1.gif";
-import music from "../images/projectsicon/music.png";
+import music from "../images/projectsicon/music.gif";
 import quitch from "../images/projectsicon/quitch.gif";
 
 
 const portfolioData = [
+    {
+        image: game,
+        link: 'https://github.com/Adnan25z/AIG_towerDefence',
+        title: 'Defenders',
+        summary: `AI Tower Defense is an engaging fantasy tower defense game that showcases my expertise in game AI development. The key features include:
+        • Implemented a recommendation system using GOAP to guide players in making strategic tower placements and upgrades.
+        • Integrated A* pathfinding for enemy units, allowing dynamic adaptation to changing game environments.
+        • Towers exhibit realistic movement through steering force models, intelligently repositioning for optimal combat.
+        • Designed towers with goal-oriented planning, enabling strategic decision-making based on current conditions.
+        • Demonstrated the fusion of predictive projectile movement and hierarchical state machines for dynamic tower behaviors.`,
+        tech: 'python | pyglet'
+    },
+    {
+        image: connect4,
+        link: 'https://github.com/Adnan25z/AIG_towerDefence',
+        title: 'connect4',
+        summary:`My Connect4 game is a dynamic and engaging desktop application built in C# and WPF, leveraging the Caliburn Micro library. This project demonstrates my proficiency in C# programming, Windows Presentation Foundation (WPF), the Model-View-ViewModel (MVVM) architectural pattern, and various advanced design patterns like the State and Strategy patterns.
+        Key Features include:
+        • Player vs. Player and AI vs. Player Modes: The application offers two exciting gameplay modes, allowing users to play against each other or challenge the AI in three difficulty levels.
+        • AI Implementation using Minimax: The AI opponent employs the Minimax algorithm to make optimal moves, providing challenging gameplay experiences.
+        • State Pattern: The application utilizes the State pattern to manage different game states, such as Player's Turn, AI's Turn, Game Over, etc., ensuring efficient handling of game flow and logic.
+        • Strategy Pattern: The Strategy pattern is employed to manage different AI difficulty levels, enabling easy extensibility to add more sophisticated AI strategies in the future.
+        • Save Games in JSON Format: Players can save ongoing games in JSON format, allowing them to continue gameplay at a later time and preserving the game state.
+        • MVVM Architecture: The entire project follows the MVVM architectural pattern, ensuring a clear separation of concerns between the user interface and business logic.`,
+        tech: 'C# | WPF | caliburn'
+    },
+    {
+        image: music,
+        link: 'https://github.com/Adnan25z/AIG_towerDefence',
+        title: 'Music Player',
+        summary: `In this project, I developed a Music Player application in Ruby, utilizing the powerful Gosu library to create an immersive music listening experience. The application showcases my technical skills in Ruby programming, graphical rendering, and effective integration of external libraries.
+        Key Features:
+        Gosu Integration: I harnessed the capabilities of Gosu to achieve high-quality graphic rendering, enabling the display of album artwork and interactive control buttons for seamless music playback.
+        Album and Track Management: Through well-structured Ruby data structures, I efficiently managed multiple albums and their corresponding tracks, allowing users to browse and select their desired music effortlessly.
+        Responsive Event Handling: I implemented Gosu's event handling mechanisms to ensure smooth and responsive user interactions, allowing users to control music playback intuitively.`,
+        tech: 'Ruby | Gosu'
+    },
+    {
+        image: chess,
+        link: 'https://github.com/Adnan25z/AIG_towerDefence',
+        title: 'Maya 3D modelling: objects and environments',
+        summary:`Created using Autodesk Maya for modelling and the Arnold renderer for achieving realistic and atmospheric visual effects. This project reflects my expertise in 3D modelling, lighting, shading, and rendering, as well as my creative abilities in designing a haunting and immersive environment.
+        Key Features:
+        Spooky Environment Design: The project involves the creation of a chilling and immersive environment, incorporating elements like fog, eerie lighting, haunting objects, and a carefully crafted ambience.
+        3D Modelling in Maya: I used Autodesk Maya to model and sculpt various objects in the environment, such as a jar filled with eyeballs, levitating chess board and pieces and other spooky elements.
+        Realistic Lighting with Arnold: The Arnold renderer was employed to achieve realistic lighting effects, creating the perfect atmosphere for the Spooky Environment with dynamic shadows and eerie glows.
+        Shading and Texturing: I meticulously applied materials and textures to enhance the visual appeal of objects, making them appear worn, weathered, and ghostly.
+        Composition and Camera Work: Carefully crafted camera angles and composition contribute to the haunting and mysterious atmosphere, enhancing the overall visual storytelling.`,
+        tech: 'C# | WPF | caliburn'
+    },
     {
         image: game,
         link: 'https://github.com/Adnan25z/AIG_towerDefence',
@@ -32,33 +82,6 @@ const portfolioData = [
         • Home and Description Pages: The home page showcases enticing cruise packages, while the description pages provide additional information about each cruise, amenities, and user testimonials.`,
         tech: 'HTML | CSS | JavaScript | Bootstrap | PHP | MySQL'
     },
-    {
-        image: connect4,
-        link: 'https://github.com/Adnan25z/AIG_towerDefence',
-        title: 'connect4',
-        summary:`My Connect4 game is a dynamic and engaging desktop application built in C# and WPF, leveraging the Caliburn Micro library. This project demonstrates my proficiency in C# programming, Windows Presentation Foundation (WPF), the Model-View-ViewModel (MVVM) architectural pattern, and various advanced design patterns like the State and Strategy patterns.
-        Key Features include:
-        • Player vs. Player and AI vs. Player Modes: The application offers two exciting gameplay modes, allowing users to play against each other or challenge the AI in three difficulty levels.
-        • AI Implementation using Minimax: The AI opponent employs the Minimax algorithm to make optimal moves, providing challenging gameplay experiences.
-        • State Pattern: The application utilizes the State pattern to manage different game states, such as Player's Turn, AI's Turn, Game Over, etc., ensuring efficient handling of game flow and logic.
-        • Strategy Pattern: The Strategy pattern is employed to manage different AI difficulty levels, enabling easy extensibility to add more sophisticated AI strategies in the future.
-        • Save Games in JSON Format: Players can save ongoing games in JSON format, allowing them to continue gameplay at a later time and preserving the game state.
-        • MVVM Architecture: The entire project follows the MVVM architectural pattern, ensuring a clear separation of concerns between the user interface and business logic.`,
-        tech: 'C# | WPF | caliburn'
-    },
-    {
-        image: chess,
-        link: 'https://github.com/Adnan25z/AIG_towerDefence',
-        title: 'Maya 3D modelling: objects and environments',
-        summary:`Created using Autodesk Maya for modelling and the Arnold renderer for achieving realistic and atmospheric visual effects. This project reflects my expertise in 3D modelling, lighting, shading, and rendering, as well as my creative abilities in designing a haunting and immersive environment.
-        Key Features:
-        Spooky Environment Design: The project involves the creation of a chilling and immersive environment, incorporating elements like fog, eerie lighting, haunting objects, and a carefully crafted ambience.
-        3D Modelling in Maya: I used Autodesk Maya to model and sculpt various objects in the environment, such as a jar filled with eyeballs, levitating chess board and pieces and other spooky elements.
-        Realistic Lighting with Arnold: The Arnold renderer was employed to achieve realistic lighting effects, creating the perfect atmosphere for the Spooky Environment with dynamic shadows and eerie glows.
-        Shading and Texturing: I meticulously applied materials and textures to enhance the visual appeal of objects, making them appear worn, weathered, and ghostly.
-        Composition and Camera Work: Carefully crafted camera angles and composition contribute to the haunting and mysterious atmosphere, enhancing the overall visual storytelling.`,
-        tech: 'C# | WPF | caliburn'
-    }
 ];
 
 export default portfolioData

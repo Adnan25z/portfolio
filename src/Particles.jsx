@@ -9,11 +9,12 @@ export default class Particles extends React.Component {
     const canvas = document.getElementById("particles");
     const ctx = canvas.getContext("2d");
     canvas.width = document.documentElement.clientWidth;
-    canvas.height = document.documentElement.clientHeight;
+    //canvas.height = document.documentElement.clientHeight;
+    canvas.height = 600;
 
     let num = 200;
-    let size = 1;
-    let color = "#fff";
+    let size = 0.5;
+    let color = "rgba(255, 255, 255, 0.2)";
     let min_speed = 0.1;
     let max_speed = 0.5;
     let line_distance = 60; // Decrease this value to make lines between particles closer
@@ -40,7 +41,7 @@ export default class Particles extends React.Component {
         this.vy = randVelocity();
 
         this.color = color;
-        this.radius = Math.floor(Math.random() * 3) + 0.5;
+        this.radius = Math.random() * 1 + 0.5;
       }
     }
 
@@ -61,7 +62,7 @@ export default class Particles extends React.Component {
           // Check position distance
           if (distance(particles[q], p) <= line_distance) {
             ctx.beginPath();
-            ctx.lineWidth = 0.2;
+            ctx.lineWidth = 0.1;
             ctx.strokeStyle = "#fff";
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(particles[q].x, particles[q].y);
@@ -90,7 +91,7 @@ export default class Particles extends React.Component {
           const distanceBetweenParticles = distance(p, particles[q]);
           if (distanceBetweenParticles <= connect_distance) {
             ctx.beginPath();
-            ctx.lineWidth = 0.2;
+            ctx.lineWidth = 0.1;
             ctx.strokeStyle = "#fff";
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(particles[q].x, particles[q].y);
