@@ -22,8 +22,8 @@ function Header() {
             <span className='particle'>{typeEffect}</span>
           </div>
           <div className="button-container">
-            <a href= {process.env.PUBLIC_URL + "/Resume_Adnan.pdf"} download className="btn btn-download">Download Resume</a>
-            <button onClick={displayResume} className="btn btn-view">View Resume</button>
+            <a href= {process.env.PUBLIC_URL + "/Resume_Adnan.pdf"} download className="btnRes btn-download">Download Resume</a>
+            <button onClick={displayResume} className="btnRes btn-view">View Resume</button>
           </div>
       </div>
   );

@@ -75,7 +75,7 @@ const Contact = () => {
             ></textarea>
           </div>
           <div className="form-group">
-            <button type="submit" className="btn btn-primary">Send Message</button>
+            <button type="submit" className="btnCon">Send Message</button>
           </div>
         </form>
       </div>

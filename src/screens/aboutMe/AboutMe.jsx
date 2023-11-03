@@ -4,7 +4,7 @@ import me from '../../images/me.png';
 
 function AboutMe() {
   return (
-    <div className="about__container" id="about-m">
+    <div className="about__container" id="about-me">
       <div>
         <img src={me} alt="my_image" />
       </div>

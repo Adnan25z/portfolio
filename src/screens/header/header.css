@@ -27,13 +27,13 @@
   }
   
   span.particle {
-    font-size: 4rem; /* Adjust the font size as desired */
+    font-size: 5rem; /* Adjust the font size as desired */
     color: #ff9900;
     font-weight: 800; /* Set the second color for the typewriter effect */
   }
 
   /* Styles for the buttons */
-.btn {
+.btnRes {
   padding: 10px 20px;
   border: none;
   border-radius: 4px;
