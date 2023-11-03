@@ -1,0 +1,105 @@
+/* Light themed styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f7f7f7; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+.contact-section {
+    max-width: auto;
+    margin: 50px auto 0;
+    padding: 20px;
+    background: var(--light-color);
+}
+
+.contact-container {
+    max-width: 600px;
+    max-height: fit-content;
+    margin: 50px auto 0;
+    padding: 20px;
+    background: #ffffff; /* White background for the contact container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border for inputs */
+    border-radius: 4px;
+    color: #555; 
+    background: #f4f4f4; /* Light background for inputs */
+    font-size: 16px;
+}
+
+.form-group textarea {
+    height: 200px;
+    resize: vertical;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #007BFF; /* Blue button background */
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.2s ease;
+}
+
+.btn-primary {
+    background: #ff9800; /* Orange color for primary button */
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+/* Add more responsive styling if needed */
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 20px;
+    }
+}
+
+/* Additional styling for hover and focus states */
+.form-group input[type="text"]:hover,
+.form-group input[type="email"]:hover,
+.form-group textarea:hover,
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+    border-color: #007BFF; /* Blue border to match the button color */
+}
+
+.btn:hover {
+    background: #0056b3; /* A darker blue for button hover effect */
+}
+
+.btn:active,
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+}

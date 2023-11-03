@@ -17,17 +17,55 @@
   .slant-header {
     position: relative;
     clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+    height: 250px;
   }
 
   h1.particle {
-    font-size: 4rem; /* Adjust the font size as desired */
+    font-size: 5rem; /* Adjust the font size as desired */
     margin: 0;
     font-weight: 900;
   }
   
   span.particle {
-    font-size: 3rem; /* Adjust the font size as desired */
+    font-size: 4rem; /* Adjust the font size as desired */
     color: #ff9900;
     font-weight: 800; /* Set the second color for the typewriter effect */
   }
+
+  /* Styles for the buttons */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 10px; /* Spacing between the buttons */
+}
+
+.btn-download {
+  background-color: #ff9900; /* Same color as the typewriter text */
+  color: #ffffff; /* White text */
+}
+
+.btn-view {
+  background-color: #ffffff; /* White button */
+  color: #ff9900; /* Text color similar to the typewriter effect */
+  border: 1px solid #ff9900; /* Border color similar to the typewriter effect */
+}
+
+/* Hover effects for the buttons */
+.btn:hover {
+  opacity: 0.9; 
+}
+
+.btn-download:hover {
+  background-color: #e68000; /* A slightly darker shade of the button color */
+}
+
+.btn-view:hover {
+  background-color: #ff9900; /* The same color as the typewriter text */
+  color: #ffffff; /* White text */
+}
+
   

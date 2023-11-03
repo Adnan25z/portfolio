@@ -60,7 +60,7 @@ const portfolioData = [
     {
         image: game,
         link: 'https://github.com/Adnan25z/AIG_towerDefence',
-        title: 'Defenders',
+        title: 'QuitchRedisgn',
         summary: `AI Tower Defense is an engaging fantasy tower defense game that showcases my expertise in game AI development. The key features include:
         • Implemented a recommendation system using GOAP to guide players in making strategic tower placements and upgrades.
         • Integrated A* pathfinding for enemy units, allowing dynamic adaptation to changing game environments.
