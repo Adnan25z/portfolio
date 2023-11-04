@@ -4,7 +4,7 @@ import connect4 from "../images/projectsicon/connect4.gif";
 import chess from "../images/projectsicon/maya1.gif";
 import music from "../images/projectsicon/music.gif";
 import quitch from "../images/projectsicon/quitch.gif";
-
+import javaee from "../images/projectsicon/Picture1.png";
 
 const portfolioData = [
     {
@@ -55,19 +55,18 @@ const portfolioData = [
         Realistic Lighting with Arnold: The Arnold renderer was employed to achieve realistic lighting effects, creating the perfect atmosphere for the Spooky Environment with dynamic shadows and eerie glows.
         Shading and Texturing: I meticulously applied materials and textures to enhance the visual appeal of objects, making them appear worn, weathered, and ghostly.
         Composition and Camera Work: Carefully crafted camera angles and composition contribute to the haunting and mysterious atmosphere, enhancing the overall visual storytelling.`,
-        tech: 'C# | WPF | caliburn'
+        tech: 'Maya| Adobe AfterEffects'
     },
     {
-        image: game,
+        image: javaee,
         link: 'https://github.com/Adnan25z/AIG_towerDefence',
-        title: 'QuitchRedisgn',
-        summary: `AI Tower Defense is an engaging fantasy tower defense game that showcases my expertise in game AI development. The key features include:
-        • Implemented a recommendation system using GOAP to guide players in making strategic tower placements and upgrades.
-        • Integrated A* pathfinding for enemy units, allowing dynamic adaptation to changing game environments.
-        • Towers exhibit realistic movement through steering force models, intelligently repositioning for optimal combat.
-        • Designed towers with goal-oriented planning, enabling strategic decision-making based on current conditions.
-        • Demonstrated the fusion of predictive projectile movement and hierarchical state machines for dynamic tower behaviors.`,
-        tech: 'python | pyglet'
+        title: 'secure and scalable website using java ee8',
+        summary: `Created a website using java ee8, primefaces and JSF and then also used mysql to store the data in the database. I developed a comprehensive Consultant Company Management System (CCMS) to facilitate effective operations
+        of a consultancy firm. The software application aims to streamline the company's process by providing distinct
+        functionalities catered to the needs of various user roles, including Admin, Client, Consultant, and Recruiter. CCMS will
+        offer capabilities such as client and project management, consultant assignment, and billing creation, fostering better
+        communication, transparency, and efficiency in the consultancy business operations.`,
+        tech: 'java ee8 | jsf | primefaces | netbeans IDE'
     },
     {
         image: cruise,

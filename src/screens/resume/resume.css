@@ -1,0 +1,62 @@
+/* resume.css */
+.resume-outer-section {
+    font-family: 'Arial', sans-serif;
+    background-color: #0e2431; /* Dark blue background */
+    color: white;
+    padding: 20px;
+  }
+  
+  .about-me-text {
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+  
+  .why-text-sub {
+    font-size: 1.2em;
+    color: #fff;
+    margin-bottom: 2em;
+    text-align: center;
+  }
+  
+  .resume-new-section {
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f3f3f3;
+  }
+  
+  .resume-left-section {
+    background-color: #172b4d; /* Dark blue background for left side */
+  }
+  
+  .bg-new {
+    background-color: #091c29; /* Even darker blue for icons background */
+    padding: 10px;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .resume-options-items {
+    padding: 10px 15px;
+    cursor: pointer;
+    color: white;
+    border-bottom: 1px solid #2c3e50;
+  }
+  
+  .resume-options-items:hover,
+  .selected {
+    background-color: #2c3e50; /* Lighter blue for selected/hover state */
+  }
+  
+  .selected {
+    font-weight: bold;
+    color: #ffbd59; /* Highlight color for selected tab */
+  }
+  
+  .resume-right-section {
+    background-color: #ffffff; /* White background for content */
+    padding: 20px;
+  }

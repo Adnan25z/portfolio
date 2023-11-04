@@ -7,6 +7,7 @@ import Technologies from './screens/technologies/Technologies';
 import Portfolio from './screens/portfolio/Portfolio';
 import Contact from './screens/contactMe/contact';
 import Footer from './screens/footer/Footer';
+import Resume from './screens/resume/Resume';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <AboutMe />
       <Technologies />
       <Portfolio />
+      <Resume />
       <Contact />
       <Footer />
     </div>
