@@ -1,14 +1,61 @@
-.company-name {
-    color: #1c1c1c;
-    font-family: "Ubuntu";
-    font-size: 1.5rem;
-    font-weight: 800;
-    text-decoration: underline;
+.work-section {
+  color: #ffffff; /* Assuming white text for dark theme */
+  background-color: #1f2833; /* Dark background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Example font */
+  padding: 20px;
+  border-left: 4px solid #66fcf1; /* This blue accent line on the side */
+  margin-bottom: 20px;
+}
+
+.work-item {
+  margin-bottom: 30px;
+}
+
+.work-item h3 {
+  font-weight: 600;
+  color: #66fcf1; /* Blue color for titles */
+  margin-bottom: 10px;
+}
+
+.work-company {
+  font-weight: 300;
+  color: #c5c6c7; /* Lighter grey color for company and dates */
+  margin-bottom: 10px;
+}
+
+.work-item ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.work-item ul li {
+  background: #0b0c10; /* Slightly darker background for list items */
+  margin-bottom: 10px;
+  padding: 10px;
+  border-left: 4px solid #45a29e; /* Darker blue accent line for list items */
+}
+
+.work-item ul li:not(:last-child) {
+  border-bottom: 1px solid #4b5c5e; /* Lighter line between list items */
+}
+
+.work-item ul li:last-child {
+  margin-bottom: 0;
+}
+
+/* If you have additional information like bullet points or details within each work item */
+.work-item ul li span {
+  color: #c5c6c7; /* Light grey for less important text */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .work-section {
+    padding: 10px;
   }
   
-  .description-position {
-    color: #1c1c1c;
+  .work-item h3 {
+    font-size: 1.2rem; /* Smaller font size for mobile */
   }
-  .position {
-    color: #1c1c1c;
-  }
+}

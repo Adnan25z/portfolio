@@ -1,0 +1,42 @@
+.awards-section {
+    color: #ffffff;
+    background-color: #1f2833;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    border-left: 4px solid #66fcf1;
+    margin-bottom: 20px;
+  }
+  
+  .awards-title {
+    color: #66fcf1;
+    margin-bottom: 15px;
+  }
+  
+  .award-item {
+    margin-bottom: 30px;
+  }
+  
+  .award-name {
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .award-description {
+    font-weight: 300;
+    color: #c5c6c7;
+    margin-bottom: 10px;
+    background: #0b0c10;
+    padding: 10px;
+    border-left: 4px solid #45a29e;
+    border-bottom: 1px solid #4b5c5e;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .awards-section {
+      padding: 10px;
+    }
+  
+    .award-item h4 {
+      font-size: 1.2rem;
+    }
+  }  

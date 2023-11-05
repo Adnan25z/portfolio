@@ -1,23 +1,65 @@
-.university-name {
-    font-family: "Ubuntu";
-    color: red;
-    font-size: 1.4rem;
-    font-weight: 800;
+.education-section {
+  color: #ffffff;
+  background-color: #1f2833;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+  border-left: 4px solid #66fcf1;
+  margin-bottom: 20px;
+}
+
+.education-title {
+  color: #66fcf1;
+  margin-bottom: 15px;
+}
+
+.education-item {
+  margin-bottom: 30px;
+}
+
+.education-degree {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.education-institution {
+  font-weight: 300;
+  color: #c5c6c7;
+  margin-bottom: 5px;
+}
+
+.education-duration {
+  font-weight: 300;
+  color: #c5c6c7;
+  margin-bottom: 10px;
+}
+
+.education-details {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.education-details li {
+  background: #0b0c10;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-left: 4px solid #45a29e;
+}
+
+.education-details li:not(:last-child) {
+  border-bottom: 1px solid #4b5c5e;
+}
+
+.education-details li:last-child {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .education-section {
+    padding: 10px;
   }
-  
-  .university-degree {
-    font-family: 0.8rem;
-    font-weight: 800;
-    font-family: "Ubuntu";
-    color: #1c1c1c;
-    text-transform: uppercase;
+
+  .education-item h4 {
+    font-size: 1.2rem;
   }
-  
-  .year-passedout {
-    font-family: monospace;
-    font-size: 1rem;
-    background: var(--standout-color);
-    color: #1c1c1c;
-    padding: 10px 10px;
-    border-radius: 20px;
-  }  
+}
