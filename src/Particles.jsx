@@ -30,7 +30,7 @@ export default class Particles extends React.Component {
     const numberOfParticles = () => {
       // Define number of particles based on screen size
       const pixels = canvas.width * canvas.height;
-      return Math.ceil(pixels / 3000); // Example: one particle per 5000 pixels
+      return Math.ceil(pixels / 5000); // Example: one particle per 5000 pixels
     };
 
     let particles = [];

@@ -33,6 +33,9 @@
   }
 
   /* Styles for the buttons */
+.button-container{
+  margin-top: 20px;
+}
 .btnRes {
   padding: 10px 20px;
   border: none;
@@ -101,7 +104,7 @@
 
   /* Further reduce button size for very small screens */
   .btnRes {
-    padding: 10px 15px;
+    padding: 8px 15px;
     font-size: 0.9rem;
   }
 }
