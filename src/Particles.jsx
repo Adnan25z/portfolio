@@ -1,25 +1,47 @@
 import React from "react";
 
 export default class Particles extends React.Component {
+  animationFrameId = null; // To keep track of the requestAnimationFrame
+
   componentDidMount() {
+    window.addEventListener('resize', this.updateCanvasSize);
     this.generateParticles();
   }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.updateCanvasSize);
+    cancelAnimationFrame(this.animationFrameId); // Cancel the animation frame when the component is unmounted
+  }
+
+  updateCanvasSize = () => {
+    // Cancel any existing animation frame when resizing
+    if (this.animationFrameId) {
+      cancelAnimationFrame(this.animationFrameId);
+    }
+    this.generateParticles(); // Regenerate the particles with new sizes and count
+  };
 
   generateParticles = () => {
     const canvas = document.getElementById("particles");
     const ctx = canvas.getContext("2d");
     canvas.width = document.documentElement.clientWidth;
-    //canvas.height = document.documentElement.clientHeight;
-    canvas.height = 600;
+    canvas.height = document.documentElement.clientHeight;
 
-    let num = 200;
+    const numberOfParticles = () => {
+      // Define number of particles based on screen size
+      const pixels = canvas.width * canvas.height;
+      return Math.ceil(pixels / 3000); // Example: one particle per 5000 pixels
+    };
+
+    let particles = [];
+    // Adjust the size and count of particles based on screen size
+    const num = numberOfParticles();
     let size = 0.5;
     let color = "rgba(255, 255, 255, 0.2)";
     let min_speed = 0.1;
     let max_speed = 0.5;
     let line_distance = 60; // Decrease this value to make lines between particles closer
     let connect_distance = 100; // Maximum distance to connect particles with lines
-    let particles = [];
 
     const distance = (pointA, pointB) => {
       let dx = Math.abs(pointB.x - pointA.x);
@@ -50,6 +72,7 @@ export default class Particles extends React.Component {
     }
 
     const draw = () => {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
       ctx.fillStyle = "#22262a";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
@@ -100,10 +123,10 @@ export default class Particles extends React.Component {
         }
       }
 
-      requestAnimationFrame(draw);
+      this.animationFrameId = requestAnimationFrame(draw);
     };
 
-    draw();
+    this.animationFrameId = requestAnimationFrame(draw);
   };
 
   render() {

@@ -68,4 +68,42 @@
   color: #ffffff; /* White text */
 }
 
+/* Use media queries for responsive adjustments */
+@media (max-width: 768px) {
+  /* Smaller font size for smaller screens */
+  h1.particle, span.particle {
+    font-size: 3rem;
+  }
+
+  /* Smaller slant height for smaller screens */
+  .slant-header {
+    height: 150px;
+  }
+
+  /* Smaller buttons for smaller screens */
+  .btnRes {
+    padding: 8px 16px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Even smaller font size for very small screens */
+  h1.particle, span.particle {
+    font-size: 2.5rem;
+  }
+
+  /* Adjust slant height and clip-path for smaller screens */
+  .slant-header {
+    height: 100px;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+
+  /* Further reduce button size for very small screens */
+  .btnRes {
+    padding: 10px 15px;
+    font-size: 0.9rem;
+  }
+}
+
   
