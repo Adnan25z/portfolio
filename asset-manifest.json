@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e45e62e7.css",
+    "main.js": "/portfolio/static/js/main.1668ec6b.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/maya1.gif": "/portfolio/static/media/maya1.6c2677d1a70a3d0c3221.gif",
+    "static/media/aquavision.gif": "/portfolio/static/media/aquavision.99da6472aaf2c63a597d.gif",
+    "static/media/cruise.gif": "/portfolio/static/media/cruise.b74387ae308fee0f4fbb.gif",
+    "static/media/groupBehaviour(HunterPrey).gif": "/portfolio/static/media/groupBehaviour(HunterPrey).38ad1c8807b3d8718dd1.gif",
+    "static/media/AIG.gif": "/portfolio/static/media/AIG.f71acf4e11737b66b438.gif",
+    "static/media/pathFind.gif": "/portfolio/static/media/pathFind.83d5ba198ab76b356ef8.gif",
+    "static/media/quitch.gif": "/portfolio/static/media/quitch.d9effaa00996bdfe4ecc.gif",
+    "static/media/me.png": "/portfolio/static/media/me.22eef015332780bebbf9.png",
+    "static/media/connect4.gif": "/portfolio/static/media/connect4.359617dfbde135934373.gif",
+    "static/media/music.gif": "/portfolio/static/media/music.82c3464c11925414a23c.gif",
+    "static/media/WanderLog.jpg": "/portfolio/static/media/WanderLog.04465853321a782820cc.jpg",
+    "static/media/AIcampaign.jpg": "/portfolio/static/media/AIcampaign.0b999e9977abef4fc184.jpg",
+    "static/media/Picture1.png": "/portfolio/static/media/Picture1.74aa3b205f65b19073ec.png",
+    "static/media/library.png": "/portfolio/static/media/library.44ca0b3f0cd72e189616.png",
+    "index.html": "/portfolio/index.html",
+    "main.e45e62e7.css.map": "/portfolio/static/css/main.e45e62e7.css.map",
+    "main.1668ec6b.js.map": "/portfolio/static/js/main.1668ec6b.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e45e62e7.css",
+    "static/js/main.1668ec6b.js"
+  ]
+}
