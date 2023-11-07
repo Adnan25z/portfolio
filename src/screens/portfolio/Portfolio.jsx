@@ -64,10 +64,11 @@ function Portfolio() {
   return (
     <div className="portfolio__main__container" id="portfolio">
       <h1>PORTFOLIO</h1>
-      <p>
-        This is my Github page
-        <a href="https://github.com/adnan25z" target="_blank" rel="noreferrer"> https://github.com/adnan25z</a>
+      <p className='githubText'>
+        For an in-depth look at my full range of projects, including those not showcased here, I warmly invite you to visit my GitHub profile. There, you'll find a diverse portfolio of my work, spanning various technologies and disciplines. Each repository contains insights into my development process, reflecting my commitment to quality and my continuous pursuit of new challenges. To explore my code, understand my methodologies, and perhaps find some inspiration, please head over to my GitHub profile.
+        <a href="https://github.com/adnan25z" target="_blank" rel="noreferrer" class="githubLink"> https://github.com/adnan25z</a>
       </p>
+
       <Container fluid="lg" style={{ padding: '2rem 0' }}>
         <Row>
           {mapped}
